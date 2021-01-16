@@ -1,0 +1,37 @@
+body{
+	background-image: url(Galaxy.jpg);
+background-size:	cover;
+font-family: "Asap Condensed"
+}
+ul {
+  list-style-type: none;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  margin: 0;
+  padding: -50;
+  overflow: hidden;
+  background-color: Grey;
+}
+.header {
+	vertical-align: left;
+
+}
+	li {
+	  float: left;
+	  background-color: #090025
+	  border-right: 1px solid #bbb;
+	  color: White;
+	  text-decoration: none;
+	}
+
+	li a {
+	  display: block;
+	  padding: 19px;
+	  border-right: 1px solid #bbb;
+	  color: White;
+	  text-decoration: none;
+	  font-size: 17px
+	}
+.Box{ 
+border: green }

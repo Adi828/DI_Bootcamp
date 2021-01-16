@@ -1,0 +1,87 @@
+/*selector {
+	Property:Value;
+}*/
+*{
+	text-align: left;
+}
+
+body{
+	background-image: url(CA.jpg);
+background-size:	cover;
+font-family: "Asap Condensed"
+}
+
+ul {
+  list-style-type: none;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000000;
+}
+.header {
+	vertical-align: middle;
+
+}
+	li {
+	  float: left;
+	  background-color: #090025
+	  border-right: 1px solid #bbb;
+	  color: White;
+	  text-decoration: none;
+	}
+
+	li a {
+	  display: block;
+	  padding: 19px;
+	  border-right: 1px solid #bbb;
+	  color: White;
+	  text-decoration: none;
+	  font-size: 17px
+	}
+
+.P1{
+	background-color: #000000;
+	color: White;
+	opacity: 1;
+	line-height: 1.0;
+	width: 400px;
+	text-align: LEFT;
+	letter-spacing: 1.5px;
+	font-size: 20px;
+	height:150px; 
+    padding-top: 40px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+    padding-left: 30px;
+	margin:0px;
+
+
+}
+/* Place the navbar at the bottom of the page, and make it stick */
+.navbar {
+  background-color: #000000;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: left;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.logo-image{
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    margin-top: -6px;
+}
+

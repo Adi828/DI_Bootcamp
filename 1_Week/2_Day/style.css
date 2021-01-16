@@ -1,0 +1,61 @@
+/*Selector {
+Property: value;  }*/
+* {
+	text-align: right;
+}
+
+body {
+	background-image: url(Galaxy.jpg);
+	background-size: cover;
+}
+
+p {
+	color: #AA4139;
+	text-align: center;
+	border: 5px solid rgba(255,0,0,0.5);
+	cursor: pointer;
+}
+p{
+	line-height: 20px; 
+	font-style: italic;
+	font-weight: bold;
+	font-size: 80%;
+	font-family: "Times New Roman",Georgia;
+}
+span {
+	font-size: 2rem; 
+}
+img {
+	float: right;
+}
+.boxmodel {
+	border: 5px solid red;
+	color: white;
+	text-align: center;
+	display: inline-block;
+	padding: 5px 20px 5px 20px;
+	margin: 0px 20px 0px 20px;
+	width: 33px;
+	height: 55px;
+}
+footer {
+	clear: both;
+	text-align: center;
+	color: white;
+}
+
+li {
+	list-style: none;
+	display: inline-block;
+}
+
+.webtext:first-child {
+	border: 5px dashed green;
+}
+
+#div1 {
+	background: rgba(0,0,255,0.2);
+}
+#div2 {
+	background: rgba(255,0,0,0.2);
+}
